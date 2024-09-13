@@ -1,0 +1,24 @@
+.navbar {
+  background-color: white;
+  border-bottom: 0.0625rem solid #ddd;
+  padding: 0.625rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-filters {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.filter span {
+  font-weight: 500;
+  color: #333;
+  font-size: 1rem;
+}

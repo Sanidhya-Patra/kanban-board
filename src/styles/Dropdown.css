@@ -1,0 +1,18 @@
+/* src/styles/Dropdown.css */
+
+.dropdown {
+    padding: 0.3125rem 0.625rem; /* 5px = 0.3125rem, 10px = 0.625rem */
+    border: 0.0625rem solid #ccc; /* 1px = 0.0625rem */
+    border-radius: 0.3125rem; /* 5px = 0.3125rem */
+    font-size: 0.875rem; /* Use relative units for font size */
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    width: 60%;
+    color: black;
+  }
+  
+  .dropdown:focus {
+    border-color: #007bff;
+  }
+  
